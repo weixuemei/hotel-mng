@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common" />
+        <module name="common-dbconn" />
+        <module name="hotel-gateway-pc" />
+        <module name="hotel-gateway-wechat" />
+        <module name="hotel-service-hotel" />
+        <module name="hotel-service-user" />
+        <module name="proxy-hotel" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common" target="1.8" />
+      <module name="common-dbconn" target="1.8" />
+      <module name="hotel-gateway-pc" target="1.8" />
+      <module name="hotel-gateway-wechat" target="1.8" />
+      <module name="hotel-mng" target="1.8" />
+      <module name="hotel-service-hotel" target="1.8" />
+      <module name="hotel-service-user" target="1.8" />
+      <module name="proxy-hotel" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
